@@ -42,16 +42,19 @@ Both DQN and Double DQN were able to solve the problem, i.e., achieve an average
 Episode 100	Average Score: 0.20
 Episode 200	Average Score: 0.66
 Episode 300	Average Score: 2.42
-Episode 400	Average Score: 5.59
-Episode 500	Average Score: 8.33
-Episode 600	Average Score: 7.78
-Episode 700	Average Score: 7.78
-Episode 800	Average Score: 6.45
-Episode 900	Average Score: 8.44
-Episode 1000	Average Score: 10.94
-Episode 1100	Average Score: 12.65
-Episode 1113	Average Score: 13.06
-Environment solved in 1013 episodes!	Average Score: 13.06
+Episode 400	Average Score: 5.60
+Episode 500	Average Score: 8.05
+Episode 600	Average Score: 8.76
+Episode 700	Average Score: 8.19
+Episode 800	Average Score: 8.57
+Episode 900	Average Score: 10.52
+Episode 1000	Average Score: 11.49
+Episode 1100	Average Score: 12.60
+Episode 1168	Average Score: 13.10
+Environment solved in 1068 episodes!	Average Score: 13.10
+
+![DQN rewards during training](dqn_results.png)
+
 ```
 ### Double DQN
 ```
@@ -68,5 +71,5 @@ Episode 1000	Average Score: 10.64
 Episode 1096	Average Score: 13.05
 Environment solved in 996 episodes!	Average Score: 13.05
 ```
-
+![Double DQN rewards during training](ddqn_results.png)
 
