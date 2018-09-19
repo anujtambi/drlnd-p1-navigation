@@ -24,10 +24,10 @@ All the work was performed on a Windows 10 laptop, with a GeForce GTX 970M GPU. 
 
 After cloning the project, download and extract the pre-built "Banana" environment using the link adequate to your operational system:
 
-    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
-    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
-    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
-    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+- Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
 It is also necessary to install [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md), [unityagents](https://pypi.org/project/unityagents/) and [NumPy](http://www.numpy.org/). Our development used an Anaconda (Python 3.6) environment. 
 
@@ -38,6 +38,7 @@ Open the Jupyter notebook `Report.ipynb` to train the agent (alternatively, load
 Both DQN and Double DQN were able to solve the problem, i.e., achieve an average score of *+13* over 100 consecutive episodes in less than 1800 episodes of training, with Double DQN achieving a slightly better result:
 
 ### DQN
+```
 Episode 100	Average Score: 0.20
 Episode 200	Average Score: 0.66
 Episode 300	Average Score: 2.42
@@ -51,8 +52,9 @@ Episode 1000	Average Score: 10.94
 Episode 1100	Average Score: 12.65
 Episode 1113	Average Score: 13.06
 Environment solved in 1013 episodes!	Average Score: 13.06
-
+```
 ### Double DQN
+```
 Episode 100	Average Score: 0.36
 Episode 200	Average Score: 0.26
 Episode 300	Average Score: 1.00
@@ -65,6 +67,6 @@ Episode 900	Average Score: 8.22
 Episode 1000	Average Score: 10.64
 Episode 1096	Average Score: 13.05
 Environment solved in 996 episodes!	Average Score: 13.05
-
+```
 
 
