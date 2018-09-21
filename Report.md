@@ -71,10 +71,10 @@ Episode 1000	Average Score: 11.49
 Episode 1100	Average Score: 12.60
 Episode 1168	Average Score: 13.10
 Environment solved in 1068 episodes!	Average Score: 13.10
-
+```
 ![DQN rewards during training](dqn_results.png)
 
-```
+
 ### Double DQN
 ```
 Episode 100	Average Score: 0.36
