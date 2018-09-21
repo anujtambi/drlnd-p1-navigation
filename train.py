@@ -1,3 +1,9 @@
+""" A script for training a DQN agent in the Banana environment of Udacity Deep Reinforcement Learning nanodegree (Project 1).
+Learning statistics will be printed in the standard output; a plot of the progress will be saved in file training.png.
+After completion, neural network weights will be saved in file checkpoint.pth. 
+This code is heavily based on the proposed exercise, with small changes for compatibility with the Unity environment, and use in the command-line.
+"""
+
 from unityagents import UnityEnvironment
 from dqn_agent import Agent
 import numpy as np
